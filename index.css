@@ -20,8 +20,9 @@ body {
 }
 
 h1 {
-  margin-top: -3em;
-  font-size: 2em;
+  margin-top: -2em;
+  font-size: 3em;
+  font-weight: 500;
   line-height: 3;
 }
 
@@ -34,10 +35,16 @@ h1 {
 
 .countdown__container div {
   text-align: center;
+  font-size: 1.2em;
 }
 
 .countdown__container p {
   font-size: 5em;
   font-weight: 600;
   line-height: 1.5;
+}
+
+.countdown__container span {
+  font-size: 1.1em;
+  font-weight: 500;
 }
