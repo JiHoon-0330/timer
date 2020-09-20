@@ -48,3 +48,20 @@ h1 {
   font-size: 1.1em;
   font-weight: 500;
 }
+.slider {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.slider__text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 4em;
+  font-weight: 600;
+}
